@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav-bar ul {
+    margin: 0;
+    padding: 0 20px 0 0;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+}
+
+#nav-bar li {
+    display: inline;
+    float: right;
+}
+
+#nav-bar i {
+    font-size: 2em;
+    color: rgb(23, 15, 48);
+    margin: 10px;
+}
+
+#nav-bar a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#nav-bar a:hover {
+    background-color: rgba(200, 200, 200, 0.7)
+}
+
+#intro {
+    text-align: center;
+    margin: 8% auto 6% auto;
+}
+
+#form input {
+    display: block;
+}
+
+#email {
+    width: 18%;
+    height: 2.4em;
+    border: 2px solid #41a4e1;
+    background: #89cce5;
+    margin: 0 auto;
+}
+
+#submit {
+    width: 8%;
+    height: 2.4em;
+    margin: 20px auto 10px auto;
+    background-color: #ffcc00;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#product-description {
+    width: 75%;
+    margin: 0 0 8% 16%;
+    display: flex;
+    flex-direction: column;
+}
+
+#product-description div{
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
+    width: 80%;
+}
+
+#product-description i {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: darkorange;
+    margin-right: 30px;
+}
+
+.ap1 i {
+    font-size: 100px;
+}
+
+.ap2 i {
+    font-size: 80px;
+    position: relative;
+}
+
+.ap3 i {
+    font-size: 80px;
+}
+
+#ad {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#products {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin-bottom: 8%;
+}
+
+#products div {
+    border: 1px solid black;
+    width: 20%;
+    height: 300px;
+    background-color: #eee;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.product-title {
+    margin: 0;
+    background-color: #ddd;
+    height: 2.5em;
+    padding-top: 1.2em;
+}
+
+.product-price {
+    margin: 4% 0;
+    font-size: 30px;
+}
+
+#products div ul {
+    list-style-type: none;
+    margin-bottom: 8%;
+    padding: 0;
+}
+
+#products div li {
+    font-size: 18px;
+    margin: 5px;
+}
+
+#products button {
+    width: 40%;
+    height: 2.5em;
+    font-size: 16px;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 3px;
+}
+
+#products button:hover {
+    background-color: gold;
+}
+
+#footer {
+    height: 100px;
+    background-color: rgba(210, 210, 210, 0.7);
+}
